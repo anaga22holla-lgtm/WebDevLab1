@@ -4,7 +4,7 @@ import pandas as pd
 
 def about_me():
     st.header("About Me:")
-    st.image(info.profile_picture, width = 200)
+    st.image("Images/profile1.jpeg, width = 200)
     st.write(info.about_me)
     st.write('---')
 about_me()
