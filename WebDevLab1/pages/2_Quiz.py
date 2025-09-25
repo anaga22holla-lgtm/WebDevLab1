@@ -4,10 +4,9 @@ import streamlit as st
 
 def intro():
 
-    cookieImg = "Images/cookie.png"
     st.header("What type of cookie are you? ⋆｡‧˚ʚ🍪ɞ˚‧｡⋆ ")
     st.subheader("Answer the questions to find out what kind of cookie matches your personality")
-    st.image(cookieImg, width = 250)
+    st.image("Images/cookie.png", width = 250)
 
 intro()
 
